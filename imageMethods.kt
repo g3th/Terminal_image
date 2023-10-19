@@ -62,7 +62,7 @@ class imageMethods(){
     }
 
     fun printImage(rgb: Color){
-        char ?:"█"
+        char = char ?:"█"
         print("\u001b[38;2;${rgb.red};${rgb.green};${rgb.blue}m${char}")
     }
 }
